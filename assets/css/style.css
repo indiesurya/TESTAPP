@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+html{
+    min-height:100%;
+    margin-bottom: 0;
+}
+.navbar {
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.sidebar {
+    display:  table-cell;
+    background-color:#009DAE;
+    height: 100%;
+    position: relative;
+    padding-left: 0;
+    width: 220px;
+    margin-bottom: 0;
+    vertical-align: top;
+    overflow: auto;
+    table-layout: fixed;
+}
+.dashboard{
+    display: table-cell;
+    width: 100%;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F9FB;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    min-height:100%;
+    margin-bottom: 0;
+    overflow: auto;
+    table-layout: fixed;
+}
+
+.nav {
+    margin-top: 10px;
+    padding-top: 5px;
+    height: 25px;
+}
+
+
+.logo {
+    padding-left: 50px;
+}
+
+.account {
+    text-align: right;
+    float: right;
+}
+
+.content-task {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+.halaman {
+    height: 50px;
+}
+.halaman h1 {
+    padding-top: 10px;
+}
+
+.halaman1 h1 {
+    padding-top: 10px;
+}
+
+.fitur li{
+    list-style: none;
+}
+
+.kolom {
+    border-bottom:  1px solid;
+    border-color: #F3F9FB;
+    height: 1cm;
+    width: 220px;
+    padding-top: 18px;
+    vertical-align: top;
+}
+.kolom a{
+    margin-left: 51px;
+    word-spacing: 5px;
+    color: white;
+    text-decoration: none;
+}
+.fitur {
+    display: table-cell;
+}
+
+.new {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+.problem {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+.progress {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+.testing {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+.complete {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+
+.column {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+}
+.ldropdown {
+    background-color:white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    color: #009DAE;
+    float: right; 
+    padding-right:20px; 
+    padding-top:3px; 
+    font-size:9px; 
+    vertical-align:middle; 
+    text-align:center;
+}
+.dropdown-content{
+    word-spacing: 2px;
+    padding-top: 0px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    margin-top: 50px;;
+    display: block;
+    clear: both;
+}
+
+.dropdown:hover .ldropdown {
+    background-color: #141E61;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: in-block;
+}
+
+.inputnew {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+    display: none;
+}
+.editnew {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: white;
+}
+
+.show {
+    display: block;
+}
+
+.show1 {
+    display: block;
+}
+
+.show2 {
+    display: block;
+}
+.show3 {
+    display: block;
+}
+
+.show4 {
+    display: block;
+}
+
+.show5 {
+    display: block;
+}
+
+input{
+    width:100%;
+    padding: 15px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    outline-color: #71DFE7;
+}
+textarea{
+    margin: 15px 0;
+    width:100%;
+    padding: 10px 20px;
+    height: 150px;
+    box-sizing: border-box;
+    outline-color: #71DFE7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column a{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 1, 63);
+}
+
+.column .date_created{
+    font-size: 10px;
+    color: #009DAE;
+    font-weight: 800;
+}
+
+.newtask {
+    border-radius: 3px;
+	border: 1px solid #009DAE;
+	background-color: #009DAE;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;  
+	transition: transform 80ms ease-in;
+}
+
+.btn-detail {
+    border-radius: 3px;
+	border: 1px solid #009DAE;
+	background-color: #009DAE;
+    color: #ffffff;
+    width: 60px;
+}
+
+.even {
+    background-color: white;
+}
+.odd {
+    background-color:  #f2f2f2;
+}
+
+.table-task {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table-task td,th{
+    text-align: left;
+    padding: 10px;
+}
+
+.table-task a{
+    text-decoration: none;
+    color:  black;
+}
+
+.table-task a:hover{
+    text-decoration: none;
+    color:  #009DAE;
+}
+
+.complete a{
+    text-decoration: line-through;
+}
+
+.complete a:hover{
+    text-decoration: line-through;
+}
+
+.detail {
+    padding:15px;
+    width: auto;
+    background-color: white;
+}
+
+.desc {
+    width: 100%;
+    padding: 5px 15px;
+    background-color:  #f2f2f2;
+    margin: 15px 0;
+    height: auto;
+}
+
+.contributor input{
+    width: 83%; 
+    padding: 10px 25px;
+
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin:0;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+.yuhuy {
+    width: 100%;
+    bottom: 0;
+}
